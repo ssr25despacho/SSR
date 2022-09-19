@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2? family= Edu+VIC+WA+NT+Beginner & family= Roboto:wght@500 & display=swap');*
+
+body{
+    min-height: 180vh;
+    max-width: 1800px;
+    margin: auto;
+}
+
+header{
+    background: url(externa.350);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.salir{
+    text-align:left;
+    margin: right 40px;
+    padding: 0.1em;
+}
+a{
+    color: white;
+    text-decoration: none;
+    background: #f7af51;
+    padding:8px 15px;
+    border-radius: 20px;
+    font-size: 25px;
+}
+section{
+   max-width: 1000px;
+   margin: auto;
+   padding: 100px 0;
+}
+h1{
+    font-size: 60px;
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    margin-top: 40px;  
+}
+
+.botones{
+    align-content: center;
+    justify-content:left;
+    display:inline-block;
+    height: 100vh;
+    padding: 15px;
+    
+}
+.btn{
+    border:3px solid rgba(100,100,100,0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 300px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: antiquewhite;
+    font-size: 16px;
+    border-radius:8px;
+    cursor: pointer;
+    background-size: 300%;
+    transition: 0.3s;
+
+}
+.btn:hover{
+    background-position: right;
+}
+.btn1{
+    margin-left: 50px;
+    background-image: linear-gradient(to left, #80c5ec, #2a5168, #80c5ec);
+}
+
+.btn2{
+    margin-left: 50px;
+    background-image: linear-gradient(to left, #A950A1, #2D3A54, #A950A1);
+}
+
+.btn3{
+    margin-left: 50px;
+    background-image: linear-gradient(to left, #A950A1, #2D3A54, #A950A1);
+}
+
+.btn4{
+    margin-left: 50px;
+    background-image: linear-gradient(to left, #80c5ec, #2a5168, #80c5ec);
+}
+
+.piePagina{
+    position: absolute;
+    width: 100%;
+    background-color: rgb(71, 68, 68);
+    text-align: center;
+    grid-template-columns: repeat(2,3fr);
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white
+    }
+.fa-location-dot{
+    color: rgb(6, 67, 233);
+    font-size: 20px;
+    
+}
+.fa-phone{
+    color: rgb(6, 67, 233);
+    font-size: 20px;
+}
+.fa-envelope{
+    color: rgb(6, 67, 233);
+    font-size: 20px;
+}
